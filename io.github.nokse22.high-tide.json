@@ -19,6 +19,7 @@
         "python3 -m compileall --invalidation-mode=unchecked-hash /app"
     ],
     "modules": [
+        "gst-plugin-jack.json",
         "python3-requirements.json",
         {
             "name": "high-tide",
@@ -28,8 +29,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Nokse22/high-tide.git",
-                    "tag": "v1.10.0",
-                    "commit": "c133518587f976c64c8bb96c7609720bcf874c18"
+                    "tag": "v1.11.0",
+                    "commit": "cc42ceacdbcb483a75a3bb47f65cf20741c4ca20"
                 }
             ]
         }
